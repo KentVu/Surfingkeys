@@ -365,9 +365,9 @@ function start(browser) {
             if (tabHistory.length > 10) {
                 tabHistory.shift();
             }
-            if (tabHistoryIndex != tabHistory.length - 1) {
-                tabHistory.splice(tabHistoryIndex + 1, tabHistory.length - 1);
-            }
+            //if (tabHistoryIndex != tabHistory.length - 1) {
+            //    tabHistory.splice(tabHistoryIndex + 1, tabHistory.length - 1);
+            //}
             tabHistory.push(activeInfo.tabId);
             tabHistoryIndex = tabHistory.length - 1;
         }
